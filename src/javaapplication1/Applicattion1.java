@@ -18,7 +18,19 @@ public class Applicattion1 {
      */
     public static void main(String[] args) {
         String input = JOptionPane.showInputDialog("enter your name");
-        System.out.println("input");
+        System.out.println(input);
+       int number1 = 184;
+       int number2 = 24;
+     int answer01= number1*number2;
+        System.out.println(answer01);
+        int number3 =45;
+        int number4 =100;
+       int answer02 = number4-number3;
+        System.out.println(answer02);
+        int number5 =47894;
+        int number6 =45796;
+       int answer03 =number5 + number6;
+        System.out.println("");
                
 
         // TODO code application logic here
